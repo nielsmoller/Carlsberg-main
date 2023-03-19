@@ -1,0 +1,153 @@
+body {
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.grid-col-span-2 {
+    grid-column: span 2;
+}
+
+.grid-col-span-3 {
+    grid-column: span 3;
+}
+
+.grid-row-span-2 {
+    grid-row: span 2;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1400px;
+
+    gap: 25px;
+    margin: 0 auto 2rem;
+}
+
+.container img, video {
+    border-radius: 10px;
+}
+
+.box1-1 {
+    width: 1fr;
+    height: 350px;
+}
+
+.box3-1 {
+    width: 3fr;
+    height: 350px;
+}
+
+.box2-2 {
+    width: 2fr;
+}
+
+.box2-1 {
+    width: 2fr;
+    height: 350px;
+}
+
+.carlsbergsqrlogo img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.singleglass img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.carlsbergvid video {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.huse img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.carlsbergdraft img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.truck img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.clover img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.carlsberg-fck img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.carlsberg-liverpool img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+footer {
+    display: flex;
+    height: auto;
+    background-color: #006939;
+}
+
+.footer-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    padding: 2rem 0 0 0;
+    background: #fff;
+}
+
+footer {
+    display:flex;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+
+ul, li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    padding: 0;
+}
+
+.socials a {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.socials a:hover {
+    color: #ffffffd0;
+}
